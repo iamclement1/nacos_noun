@@ -1,0 +1,84 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  background-image: url(../img/sch.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bg-fade {
+  background-color: rgba(0, 0, 0, 0.692);
+
+  padding-top: 2em;
+
+  border: 1px solid rgba(255, 255, 255, 0.16);
+}
+.bg-fade h1 {
+  font-family: 'Tenali Ramakrishna', sans-serif;
+  font-size: 2em;
+}
+
+.login img {
+  display: block;
+  margin: auto;
+}
+form {
+  padding-top: 4em;
+  margin: 0;
+}
+
+.icon1 {
+  margin: 0 0 1em;
+  background: rgba(249, 246, 246, 0.27);
+  padding: 0.6em;
+  border-bottom: 1px solid #29fba4;
+}
+
+span {
+  color: whitesmoke;
+}
+
+input,
+select,
+textarea {
+  max-width: 100px;
+}
+
+input[type='password'],
+input[type='text'] {
+  outline: none;
+  border: none;
+  background: initial;
+  border-left: 1px solid white;
+  margin: 0 0.7em;
+  color: #fff;
+}
+input[type='password']::placeholder,
+input[type='text']::placeholder {
+  color: #fff;
+  padding-left: 0.5em;
+  font-size: 0.9em;
+}
+input[type='submit'] {
+  background: #4099ff;
+  color: #fff;
+  font-size: 1em;
+  padding: 0.3em 1.2em;
+  width: 100px;
+  font-family: 'Tenali Ramakrishna', sans-serif;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+.bottom {
+  text-align: center;
+  padding-bottom: 2em;
+}
+
+.btn {
+  width: 150px;
+}
