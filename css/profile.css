@@ -328,6 +328,6 @@ Profile Upload
   color: #fff;
 }
 
-p {
-  color: #fff;
+.card-text-body {
+  color: #000;
 }
