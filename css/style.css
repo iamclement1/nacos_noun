@@ -113,6 +113,9 @@ ABOUT PAGE STYLYING
 }
 
 .img-card {
-  width: 25em;
-  height: 18em;
+  padding: 14px 0;
+  width: 23em;
+  height: 15em;
+  align-items: center;
+  justify-content: center;
 }
