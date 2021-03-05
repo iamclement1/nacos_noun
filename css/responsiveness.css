@@ -4,12 +4,18 @@
   } */
 
   .img-card {
-    width: 18em;
+    margin: 0;
+    padding: 0;
+    width: 15em;
     height: 12em;
     align-items: center;
   }
 
   .card-body h1 {
     font-size: 1.5em;
+  }
+
+  .card-text {
+    font-size: 12px;
   }
 }
