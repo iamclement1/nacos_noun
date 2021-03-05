@@ -1,0 +1,10 @@
+@media only screen and (max-width: 765px) {
+  * {
+    border: 1px red solid;
+  }
+
+  .school-name {
+    font-size: 15px;
+    line-height: 1.2;
+  }
+}

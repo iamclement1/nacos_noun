@@ -1,0 +1,15 @@
+@media only screen and (max-width: 765px) {
+  * {
+    border: 2px red solid;
+  }
+
+  .img-card {
+    width: 12em;
+    height: 12em;
+    align-items: center;
+  }
+
+  .card-body h1 {
+    font-size: 1.5em;
+  }
+}
