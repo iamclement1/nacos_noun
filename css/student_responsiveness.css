@@ -3,8 +3,7 @@
     border: 1px red solid;
   }
 
-  .school-name {
-    font-size: 15px;
-    line-height: 1.2;
+  h6 {
+    font-size: 12px;
   }
 }

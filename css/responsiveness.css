@@ -1,11 +1,11 @@
 @media only screen and (max-width: 765px) {
-  * {
+  /* * {
     border: 2px red solid;
-  }
+  } */
 
   .img-card {
-    width: 12em;
-    height: 12em;
+    width: 15em;
+    height: 15em;
     align-items: center;
   }
 
