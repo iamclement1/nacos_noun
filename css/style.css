@@ -119,3 +119,7 @@ ABOUT PAGE STYLYING
   align-items: center;
   justify-content: center;
 }
+
+/* Google map styling responsiveness*/
+@media only screen and (max-width: 765px) {
+}

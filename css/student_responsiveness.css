@@ -1,9 +1,25 @@
 @media only screen and (max-width: 765px) {
   * {
-    border: 1px red solid;
+    /* border: 1px red solid; */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
   }
 
-  h6 {
-    font-size: 12px;
+  .container .card-body {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10em 0;
+  }
+
+  .card-body .title {
+    max-width: 80%;
+    font-size: 19px;
+  }
+
+  .title .acr {
   }
 }
